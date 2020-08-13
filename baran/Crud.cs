@@ -6,7 +6,7 @@ namespace baran
 {
     class Crud
     {
-        NpgsqlConnection connection = new NpgsqlConnection("Server=localhost; Port=5432; Database=baran; User Id=postgres; Password=zorsifre123;");
+        NpgsqlConnection connection = new NpgsqlConnection("Server=localhost; Port=5432; Database=baran; User Id=postgres; Password=169766;");
 
         public void uyelikAc(string ad, string soyad, int telefon ,string email, int tc, string sehir,string ilce,string adres,int tur)
         {
